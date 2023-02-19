@@ -1,0 +1,2 @@
+echo "alias Lanime='sudo java -cp /lib/linuxanime main'" >> ~/.bashrc
+source ~/.bashrc
