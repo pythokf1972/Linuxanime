@@ -54,13 +54,14 @@ here is a code snippet of the functions and class in action
 
 
 import Linuxanime.Scraper;
+{
 class main
 {
     public static void main(String args[])
     {
       Scraper s = new Scraper();
       s.search("keywords");
-      s.play(name,episode)
+      s.play(name,episode);
     
     }
 
