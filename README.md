@@ -9,26 +9,27 @@ but before that make sure u have git installed,if u dont then install it using
 sudo apt install git
 
 after that we need to clone using
-'git clone https://github.com/pythokf1972/Linuxanime'
+
+`git clone https://github.com/pythokf1972/Linuxanime`
 
 then after this step, we go ahead and move to the Linuxanime directory
-'cd Linuxanime'
+`cd Linuxanime`
 then we give setup.sh execute privellage and run it
-'chmod +x setup.sh'
+`chmod +x setup.sh`
 and then run it as root
-'sudo bash setup.sh'
+`sudo bash setup.sh`
 we would notice that a few things are installing which is the java programming language compiler
 and then after that is finished the program asked u for input for the path of the Linuxanime folder so enter it
 
 
 after all of that is done u can find some command in required.txt
 u have to copy the first command and execute it in terminal
-'echo "alias Lanime='sudo java -cp /lib/linuxanime main'" >> ~/.bashrc'
+`echo "alias Lanime='sudo java -cp /lib/linuxanime main'" >> ~/.bashrc`
 
 
 
 and then the second one
-'source ~/.bashrc'
+`source ~/.bashrc`
 
 and there u have it everything is good and ready to go u can now start the program by running the command
 Lanime
@@ -63,8 +64,8 @@ class main
       s.search("keywords");
       s.play(name,episode);
     
-    }
-
+    
+}
 }
 
 
